@@ -8,7 +8,12 @@ export class AppComponent {
   title = 'app1';
   variable: any;
 
+  myMethod(): boolean {
+    return true;
+  }
+
   mymethod2(): number {
+    return 'hola';
     console.log('test');
   }
 }
