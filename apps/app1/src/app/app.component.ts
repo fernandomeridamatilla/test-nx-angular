@@ -6,10 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app1';
-
-  myMethod(): void {
-    return true;
-  }
+  variable: any;
 
   mymethod2(): number {
     console.log('test');
