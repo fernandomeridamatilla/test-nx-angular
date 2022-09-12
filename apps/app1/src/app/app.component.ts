@@ -10,4 +10,8 @@ export class AppComponent {
   myMethod(): void {
     return true;
   }
+
+  mymethod2(): number {
+    console.log('test');
+  }
 }
