@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx pretty-quick --pattern "apps/**/*.*(ts|json|html|scss)" --staged  && npx stylelint "apps/**/*.scss" --fix
+npx pretty-quick --pattern "apps/**/*.*(ts|json|html|scss)" --staged  && npx stylelint "apps/**/*.scss" --fix && npm run lint
